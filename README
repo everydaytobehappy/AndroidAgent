@@ -1,0 +1,27 @@
+# AndroidAgent
+An on-device AI agent for Android — voice-driven memo application powered by LLM intent extraction.
+
+## Project Status
+Work in progress — v0.1 (Voice recording → LLM parsing → structured memo output)
+
+## Roadmap
+- **v0.1**: Voice memo recording, cloud LLM for speech content intent extraction
+- **v0.2**: On-device quantized Qwen2.5 LLM, native integration with system memo & calendar
+- **v0.3**: Cross-app intelligent agent via Accessibility Service, Android Intent and MCP protocol
+
+## Tech Stack
+Kotlin, Jetpack Compose, Room Database, OkHttp, Qwen LLM API
+
+## Quick Start
+1. Clone repository
+```bash
+git clone git@github.com:everydaytobehappy/AndroidAgent.git
+```
+2. Open the project in Android Studio and sync Gradle dependencies
+3. Fill your Qwen API Key in the config file to launch the app
+
+## Core Features
+1. Real-time voice recording & speech-to-text conversion
+2. LLM automatic content analysis: auto classify notes into to-dos, schedules, random notes and reminders
+3. Structured memo storage with category tags & search capability, persisted locally
+4. Future offline version: fully local on-device LLM without cloud transmission for better privacy protection
