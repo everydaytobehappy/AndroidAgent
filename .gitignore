@@ -1,0 +1,23 @@
+# Gradle缓存目录
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# 临时编译文件
+*.lock
+*.bin
+file-system.probe
+buildOutputCleanup/
+vcs-*/
+8.7/
+9.2.1/
+
+# Android编译产物
+*/build/
+app/build/
+
+# IDE缓存 & Mac隐藏文件
+.idea/
+*.iml
+.DS_Store
